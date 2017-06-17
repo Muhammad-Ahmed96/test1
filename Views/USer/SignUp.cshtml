@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+
+<h2>SignUp</h2>
+
+@section Scripts
+{
+    <script>
+        $(function () {
+            $("#btnLogin").click(function () {
+                {
+                    alert("Hello");
+                }
+            });
+        });
+    </script>
+}
+
+<div>
+    <label>Email</label>
+    <input type="text" name="emal" id="mail" />
+    <label>Password</label>
+    <input type="password" name="pas" />
+    <input type="submit" value="Sign Up" id="btnLogin" />
+</div>
